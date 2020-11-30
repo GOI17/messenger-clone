@@ -1,0 +1,18 @@
+.chat-message-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-radius: 2rem;
+  background-color: #E7E7E7;
+  padding: 0.6rem;
+  margin-top: auto;
+}
+
+.chat-message-input input {
+  border: none;
+  background-color: #E7E7E7;
+  outline: none;
+  width: 100%;
+}

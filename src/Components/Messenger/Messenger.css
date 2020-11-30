@@ -1,0 +1,6 @@
+.messenger {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  height: 100%;
+}

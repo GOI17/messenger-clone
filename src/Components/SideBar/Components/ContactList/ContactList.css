@@ -1,0 +1,56 @@
+.sideBar-contactList {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.sideBar-contactList:hover {
+  overflow-x: scroll;
+}
+
+.sideBar-contactList-item {
+  margin: 0 0.5rem;
+  background-color: #F5F5F5;
+}
+
+.sideBar-contactList-new-room {
+  height: 2.9rem;
+  width: 2.9rem;
+  background-color: #E7E7E7;
+  padding: 0.4rem;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideBar-contactList-item,
+.sideBar-contactList-new-room {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sideBar-contactList-item p,
+.sideBar-contactList-new-room p {
+  margin-top: 0.3rem;
+  font-size: 0.7em;
+}
+
+.sideBar-contactList-item:focus,
+.sideBar-contactList-new-room:focus {
+  outline: none;
+}
+
+.sideBar-contactList-item img {
+  height: 2.9rem;
+  width: 2.9rem;
+  border-radius: 2rem;
+}
+
+.sideBar-contactList-new-room img {
+  height: 1.2rem;
+  width: 1.2rem;
+}

@@ -1,0 +1,7 @@
+.sideBar {
+  background-color: #F5F5F5;
+  width: 25vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
